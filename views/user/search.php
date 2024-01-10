@@ -45,8 +45,8 @@ if (!empty($users)) {
                             <td><?php echo $user['email'] ?></td>
                             <td><?php echo $user['phone'] ?></td>
                             <td>
-                                <a href="user_edit.php?id=<?php echo $user['id']; ?>" class="btn btn-primary"><span class="fa fa-edit"></span></a>
-                                <a href="user_show.php?id=<?php echo $user['id']; ?>" class="btn btn-info"><span class="fa fa-eye"></span></a>
+                                <a href="./?j=user&u=edit&id=<?php echo $user['id']; ?>" class="btn btn-primary"><span class="fa fa-edit"></span></a>
+                                <a href="./?j=user&u=show&id=<?php echo $user['id']; ?>" class="btn btn-info"><span class="fa fa-eye"></span></a>
                                 <a type="button" data-toggle="modal" data-target="#delete_user_<?php echo $user['id'] ?>" class=" btn btn-danger"><span class="fa fa-trash"></span></a>
                             </td>
                         </tr>

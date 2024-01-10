@@ -1,3 +1,4 @@
+<?php include('../route.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -28,8 +29,21 @@
             <div class="col-lg-6 col-md-6 col-sm-12">
                 <p clas="txt-color">Tel : +221 78 124 48 84 | Republique du Sénégal</p>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-4 col-sm-12">
                 <p>Reseau sociaux</p>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12">
+                <?php
+                if (isset($_SESSION['id'])) {
+                ?>
+                    <a href="../index.php?j=main"><?php echo $_SESSION['username'] ?></a>
+                <?php
+                } else {
+                ?>
+                    <a href="../login.php">Se connecter</a>
+                <?php
+                }
+                ?>
             </div>
         </div>
         <!-- navigation -->
@@ -54,8 +68,7 @@
     </div>
     <div class="container-fluid">
         <marquee behavior="scroll" direction="left">
-            <h2><strong><i>Lorem</i></strong> ipsum dolor sit amet <b>consectetur</b>, <span
-                    style="color:blueviolet;font-size:50px;">a</span>dipisicing elit. Vitae,
+            <h2><strong><i>Lorem</i></strong> ipsum dolor sit amet <b>consectetur</b>, <span style="color:blueviolet;font-size:50px;">a</span>dipisicing elit. Vitae,
                 iusto.</h2>
         </marquee>
         <!-- section 1 -->
