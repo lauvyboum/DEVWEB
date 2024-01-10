@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>List of activities</h1>
+    <h1>List of Tasks</h1>
 </body>
 
 </html>

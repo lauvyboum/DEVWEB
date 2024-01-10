@@ -9,8 +9,11 @@ switch ($p) {
     case "user":
         include("./views/user/index.php");
         break;
-    case "activite":
-        include("./views/activite/index.php");
+    case "tache":
+        include("./views/tache/index.php");
+        break;
+    case "test":
+        include("./test.php");
         break;
     default:
         echo ("Page inexistante");

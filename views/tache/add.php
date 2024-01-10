@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>Add activity</h1>
+    <h1>Add Task</h1>
 </body>
 
 </html>

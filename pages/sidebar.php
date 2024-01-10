@@ -35,17 +35,14 @@
                     <p>Dashboard</p>
                 </a></li>
             <li>
-                <a href="test.php" class="waves-effect waves-button">
+                <a href="./?j=test" class="waves-effect waves-button">
                     <span class="menu-icon fa fa-code"></span>
                     <p>Code PHP</p>
                 </a>
             </li>
 
-            <li><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-user"></span>
-                    <p>Compte</p>
-                </a></li>
-            <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon fa fa-users"></span>
-                    <p>Utilisateurs</p><span class="arrow"></span>
+            <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon fa fa-user"></span>
+                    <p>Utilisateur</p><span class="arrow"></span>
                 </a>
                 <ul class="sub-menu">
                     <li><a href="./?j=user">Ajout</a></li>
@@ -54,29 +51,14 @@
                 </ul>
             </li>
             <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-list"></span>
-                    <p>Activité</p><span class="arrow"></span>
+                    <p>Tâche</p><span class="arrow"></span>
                 </a>
                 <ul class="sub-menu">
-                    <li><a href="./?j=activite">Ajout</a></li>
-                    <li><a href="./?j=activite&a=list">Liste</a></li>
+                    <li><a href="./?j=tache">Ajout</a></li>
+                    <li><a href="./?j=tache&a=list">Liste</a></li>
                 </ul>
             </li>
-            <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-edit"></span>
-                    <p>Réalisation</p><span class="arrow"></span>
-                </a>
-                <ul class="sub-menu">
-                    <li><a href="#">Ajout</a></li>
-                    <li><a href="#">Liste</a></li>
-                </ul>
-            </li>
-            <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-log-in"></span>
-                    <p>Partenaire</p><span class="arrow"></span>
-                </a>
-                <ul class="sub-menu">
-                    <li><a href="#">Ajout</a></li>
-                    <li><a href="#">Liste</a></li>
-                </ul>
-            </li>
+
             <li>
                 <a href="./site/" target="_blank" class="waves-effect waves-button">
                     <span class="menu-icon glyphicon glyphicon-globe"></span>

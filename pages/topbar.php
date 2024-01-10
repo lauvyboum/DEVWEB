@@ -6,7 +6,7 @@
             </a>
         </div>
         <div class="logo-box">
-            <a href="index.php" class="logo-text" title="Appuyez ici pour acceder au site web" target="_blank"><span>Logo</span></a>
+            <a href="index.php" class="logo-text"><img src="assets/images/logo.png" alt="LETOA-G" height="50"></a>
         </div><!-- Logo Box -->
         <div class="search-button">
             <a href="javascript:void(0);" class="waves-effect waves-button waves-classic show-search"><i class="fa fa-search"></i></a>

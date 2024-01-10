@@ -6,6 +6,7 @@
 <meta name="description" content="Admin Dashboard Template" />
 <meta name="keywords" content="admin,dashboard" />
 <meta name="author" content="Steelcode" />
+<link rel="shortcut icon" type="image/png" href="assets/images/logo.png">
 
 <!-- Styles -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
@@ -20,7 +21,7 @@
 <link href="assets/plugins/3d-bold-navigation/css/style.css" rel="stylesheet" type="text/css" />
 <link href="assets/plugins/weather-icons-master/css/weather-icons.min.css" rel="stylesheet" type="text/css" />
 <link href="assets/plugins/metrojs/MetroJs.min.css" rel="stylesheet" type="text/css" />
-<link href="assets/plugins/toastr/toastr.min.css" rel="stylesheet" type="text/css" />
+<!-- <link href="assets/plugins/toastr/toastr.min.css" rel="stylesheet" type="text/css" /> -->
 
 <!-- Theme Styles -->
 <link href="assets/css/modern.min.css" rel="stylesheet" type="text/css" />
