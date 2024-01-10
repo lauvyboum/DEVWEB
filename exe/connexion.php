@@ -1,5 +1,4 @@
-<?php session_start();
-
+<?php
 include('../route.php');
 
 if (isset($_POST['btn_conx'])) {

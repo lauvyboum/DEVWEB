@@ -66,6 +66,6 @@ function getUserByEmailAndPassword($email, $password)
 function searchUser($mot)
 {
     global $db;
-    $getrows = $db->getRows("SELECT * FROM users WHERE nom or prenom or username or phone like '%$mot%'");
+    $getrows = $db->getRows("SELECT * FROM users WHERE nom like '%$mot%' OR email like '%$mot%' OR prenom like '%$mot%' OR username like '%$mot%' OR phone like '%$mot%'");
     return $getrows;
 }

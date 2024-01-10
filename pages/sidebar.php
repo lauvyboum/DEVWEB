@@ -48,8 +48,8 @@
                     <p>Utilisateurs</p><span class="arrow"></span>
                 </a>
                 <ul class="sub-menu">
-                    <li><a href="user_add.php">Ajout</a></li>
-                    <li><a href="user_list.php">Liste</a></li>
+                    <li><a href="./?j=user">Ajout</a></li>
+                    <li><a href="./?j=user&u=list">Liste</a></li>
                     <li><a href="#">Rôle</a></li>
                 </ul>
             </li>
@@ -57,8 +57,8 @@
                     <p>Activité</p><span class="arrow"></span>
                 </a>
                 <ul class="sub-menu">
-                    <li><a href="#">Ajout</a></li>
-                    <li><a href="#">Liste</a></li>
+                    <li><a href="./?j=activite">Ajout</a></li>
+                    <li><a href="./?j=activite&a=list">Liste</a></li>
                 </ul>
             </li>
             <li class="droplink"><a href="#" class="waves-effect waves-button"><span class="menu-icon glyphicon glyphicon-edit"></span>

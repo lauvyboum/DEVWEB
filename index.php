@@ -1,4 +1,6 @@
-<?php session_start();
+<?php
+include('route.php');
+
 if (!isset($_SESSION['id'])) {
     header('location:login.php');
 } else {
@@ -34,9 +36,7 @@ if (!isset($_SESSION['id'])) {
                     </div>
                 </div>
                 <div id="main-wrapper">
-                    <?php include("pages/dashboard.php"); ?>
-
-                    <?php include("pages/realisation.php"); ?>
+                    <?php include("pages/content.php"); ?>
                 </div>
 
                 <div class="page-footer">

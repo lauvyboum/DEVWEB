@@ -3,7 +3,17 @@
         <div class="panel info-box panel-white">
             <div class="panel-body">
                 <div class="info-box-stats">
-                    <p class="counter">500</p>
+                    <?php
+                    $users = getAllUsers();
+                    $compteur = 0;
+                    if (!empty($users)) {
+                        foreach ($users as $key => $value) {
+                            $compteur++;
+                        }
+                    }
+
+                    ?>
+                    <p class="counter"><?php echo $compteur; ?></p>
                     <span class="info-box-title">Nombre d'utilisateurs</span>
                 </div>
                 <div class="info-box-icon">

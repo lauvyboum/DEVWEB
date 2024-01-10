@@ -1,4 +1,4 @@
-<form class="search-form" action="user_search.php" method="POST">
+<form class="search-form" action="./?j=user&u=search" method="POST">
     <div class="input-group">
         <input type="text" name="mot" class="form-control search-input" placeholder="Recherchez un utilisateur..." required>
         <span class="input-group-btn">
